@@ -519,9 +519,7 @@ a, a:hover, a:focus, a:active {
       display: none;
     }
 
-    #ikon-menu {
-      display: none;
-    }
+
 
     .burger-menu{
       display: block;
@@ -558,8 +556,8 @@ a, a:hover, a:focus, a:active {
     header nav ul li a{
         border-bottom: 1px solid #333333; 
         color: #fafafa;
+        margin-bottom: 50px;
     }
-
   }
 
 @media (max-width: 990px){
