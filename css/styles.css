@@ -159,6 +159,7 @@ header nav ul li a{
   width: 80%;
   margin-top: -2%;
   margin-left: 60%;
+  display: block;
 }
 
 #ikon-menu{
@@ -502,6 +503,11 @@ a, a:hover, a:focus, a:active {
 
     .burger-menu{
         display: block;
+    }
+
+    #navn-tamtam {
+
+      display: none;
     }
 
 /*makes the burger menu usable (on smaller devices)*/
