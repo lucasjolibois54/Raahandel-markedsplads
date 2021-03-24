@@ -396,6 +396,7 @@ a, a:hover, a:focus, a:active {
     width: 80vh;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     padding-top: 0;
     border-radius: 10px;
   }
@@ -492,23 +493,25 @@ a, a:hover, a:focus, a:active {
 
  /* NAVIGATION*/
 
+  @media (max-width: 1460px){
 
-
-@media (max-width: 990px){
     header{
-        padding: 0 20px;
+      padding: 0 20px;
     }
 
     header nav ul li a.active{
-        color: #FFA500;}
-
-    .burger-menu{
-        display: block;
-    }
+      color: #FFA500;}
 
     #navn-tamtam {
-
       display: none;
+    }
+
+    #ikon-menu {
+      display: none;
+    }
+
+    .burger-menu{
+      display: block;
     }
 
     #ikon-menu{
@@ -542,4 +545,10 @@ a, a:hover, a:focus, a:active {
         border-bottom: 1px solid #333333; 
         color: #fafafa;
     }
+
+  }
+
+@media (max-width: 990px){
+
+
 }
