@@ -419,6 +419,17 @@ a, a:hover, a:focus, a:active {
     margin-left: -69%;
     margin-right: auto;
   }
+
+  @media screen and (max-width: 392px) {
+    .switch {
+      position: relative;
+      display: inline-block;
+      padding: 10px 45px 0px 10px;
+      top: -54px;
+      margin-left: -54%;
+      margin-right: auto;
+    }
+  }
   
   .switch input { 
     opacity: 0;
