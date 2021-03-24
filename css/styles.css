@@ -72,10 +72,8 @@ p{
 
   /*--------------------DET NYE----------------*/
   .smooth-scroll-wrapper {
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    left: 0;
+    position: absolute;
+    
     overflow: hidden;
 }
 
@@ -162,9 +160,8 @@ header nav ul li a{
   h1, .markedsplads_overskrift{
     padding-top: 180px;
     color: #FAFAFA;
-    font-size: 2em;
-    padding-top: 30%;
-
+    font-size: 3em;
+    padding-top: 35vh;
   }
 
   .markedsplads_overskrift2{
