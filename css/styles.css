@@ -148,7 +148,7 @@ header nav ul li{
 header nav ul li a{
     height: 50px; 
     line-height: 50px;
-    padding: 10px 10px 10px 10px; 
+    padding: 0px 9px; 
     color: #82AF8E;
     text-decoration: none; 
     display: block; 
@@ -158,7 +158,7 @@ header nav ul li a{
   height: auto;
   width: 80%;
   margin-top: -2%;
-  margin-left: 40%;
+  margin-left: -14px;
   display: block;
 }
 
@@ -340,7 +340,7 @@ a, a:hover, a:focus, a:active {
 
 .card_content1 { /*card/ box with text*/
   padding: 1rem;
-  background: #fff;
+  background: #F0F0F0;
 }
 
 .card_title1 { /*title of all the cards/ boxes*/
@@ -360,7 +360,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .card1 {
-    background-color: #fff; /*changes color of background of card but is underneath*/
+    background-color: #F0F0F0; /*changes color of background of card but is underneath*/
     border-radius: 0; /*changes the border radius to 0 so that it won't get round*/
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1); /*adds a small barely visible shadow with a visibility of 0.1*/
     display: flex; 
@@ -514,7 +514,13 @@ a, a:hover, a:focus, a:active {
       display: block;
     }
 
-    /*makes the burger menu usable (on smaller devices)*/
+    #ikon-menu{
+      height: auto;
+      width: 5%;
+      
+    }
+
+/*makes the burger menu usable (on smaller devices)*/
     header nav{
         position: absolute; 
         width: 100%;
