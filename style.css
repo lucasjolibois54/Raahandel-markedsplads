@@ -41,6 +41,13 @@ p{
 
 
 
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+  }
 
   body {
     margin: 0px;
@@ -188,6 +195,19 @@ header nav ul li a{
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+>>>>>>> parent of 7f4b112... update
  /* NAVIGATION*/
 
 
