@@ -1,8 +1,55 @@
-
-
 body {
     display: grid;
     place-items: center;
     min-height: 100vh;
     background-color: #242424;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PC Query */
+
+@media screen and (min-width: 992px) {
+    .h1 {
+      float: none;
+      width: 100%;
+    }
+  }
