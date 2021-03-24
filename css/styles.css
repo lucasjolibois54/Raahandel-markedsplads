@@ -493,6 +493,19 @@ a, a:hover, a:focus, a:active {
 
  /* NAVIGATION*/
 
+ @media (min-width: 400px){
+  .burger-menu{
+    display: block;
+    margin-left: -100px;
+
+  }}
+  @media (max-width: 400px){
+    .burger-menu{
+      display: block;
+      margin-left: -100px;
+  
+    }}
+
   @media (max-width: 1460px){
 
     header{
@@ -512,6 +525,7 @@ a, a:hover, a:focus, a:active {
 
     .burger-menu{
       display: block;
+
     }
 
     #ikon-menu{
