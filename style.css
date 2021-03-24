@@ -1,0 +1,249 @@
+
+
+
+
+
+
+
+/* Extras */
+
+h1{
+    font-family: 'Montserrat', 700;
+    margin: 0px auto;
+    display: table;
+    font-size: 26px;
+    padding: 40px 0px;
+    color: #002e5b;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Montserrat', 600;
+    font-size: 18px;
+    font-weight: 500;
+    color: #002e5b;
+    /*--just added--*/
+    text-decoration: underline;
+    text-decoration-color: #FFA500;
+    text-underline-offset: 6px;
+    /*--------------*/
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Montserrat', 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7c7c7c;
+    text-align: justify;
+}
+
+
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "montserrat", sans-serif;
+    }
+
+/* Index.html */
+
+/*
+  section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: table;
+    position: relative;
+  }
+  */
+
+  h1 span {
+    font-weight: 500;
+  }
+  
+  .content {
+    display: table;
+    margin-bottom: 60px;
+    width: 900px;
+  }
+
+
+
+
+
+
+  /*--------------------DET NYE----------------*/
+
+  body, #body_bg{
+    background-color: #ffff;
+  }
+
+  /*Navigation*/
+header{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    padding: 0 100px; 
+    background: transparent; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+/*logo in the navigation*/
+header .logo{
+    color: #303030; 
+    height: 50px; 
+    line-height: 50px; 
+    font-size: 18px; 
+    float: left; 
+    font-weight: bold; 
+}
+
+header nav{
+    float: right; 
+}
+
+.logo img{
+    margin-top: 0.36em;
+    max-width: 30%;  
+height: auto;
+}
+
+header nav ul li a.active{
+    text-decoration: underline;}
+
+/*hover effect and location effect*/
+header nav ul li a:hover,
+header nav ul li a.active{
+    color: #fafafafa; 
+    
+}
+
+header nav ul{
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+}
+
+header nav ul li{
+    list-style: none; 
+}
+
+header nav ul li a{
+    height: 50px; 
+    line-height: 50px;
+    padding: 0 20px; 
+    color: #82AF8E;
+    text-decoration: none; 
+    display: block; 
+}
+
+
+
+/*added the bruger menu and removed it for desktop*/
+.burger-menu{
+    color: #fff; 
+    float: right; 
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer; 
+    display: none; 
+}
+
+  h1, .markedsplads_overskrift{
+    padding-top: 180px;
+    color: #FAFAFA;
+    font-size: 2em;
+    padding-top: 30%;
+
+  }
+
+  .markedsplads_overskrift2{
+    margin-top: -40px;
+    text-align: center;
+    color: #82AF8E;
+    font-size: 2em;
+    text-decoration-color: #82AF8E;
+
+  }
+ 
+
+  #section-a .bg-image{
+    position: absolute;
+    background-image: url("markedsplads-header.png");
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* NAVIGATION*/
+
+
+
+@media (max-width: 990px){
+    header{
+        padding: 0 20px;
+    }
+
+    header nav ul li a.active{
+        color: #FFA500;}
+
+    .burger-menu{
+        display: block;
+    }
+
+/*makes the burger menu usable (on smaller devices)*/
+    header nav{
+        position: absolute; 
+        width: 100%;
+        height: calc(100vh - 50px); 
+        background: #303030;
+        z-index: 2; 
+        top: 50px; 
+        left: -100%; 
+        transition: 0.5s; 
+    }
+
+    header nav.active{
+        left: 0;
+    }
+
+    header nav ul{
+        display: block; 
+        text-align: center; 
+    }
+
+    header nav ul li a{
+        border-bottom: 1px solid #333333; 
+        color: #fafafa;
+    }
+}
