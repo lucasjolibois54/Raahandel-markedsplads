@@ -1,0 +1,336 @@
+body{
+    background-color: #242424;
+}
+
+/*HEADER*/
+.header{
+    margin-bottom: 25em;
+}
+
+.logo img {
+    margin-top: 1em;
+    max-width: 7%;  
+    height: auto;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+  }
+  
+  #header-skrift{
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    position: absolute;
+    top: 40px;
+    left: 12%;
+  
+  }
+  .slash {
+    color: #3F774E;
+  }
+  
+  a{
+    font-family: 'Montserrat';
+    color: #3F774E;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a:hover{
+    color: #82AF8E  
+  }
+  
+  .nav-position1{
+    position: absolute;
+    left: 63%;
+    top: 80px;
+    overflow: hidden;
+  }
+
+  .nav-position2{
+    position: absolute;
+    left: 75%;
+    top: 80px;
+    overflow: hidden;
+  }
+  .background-pic {
+      width: 100%;
+      height: auto;
+  }
+  
+/*CONTENT*/
+#info-boks{
+    background-color: #FFFFFF;
+    width: 80em;
+    height: 60em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20em;
+    margin-left: 19em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 3px #3F774E;
+}
+
+#godkend-boks{
+    background-color: #FFFFFF;
+    width: 35em;
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    margin-left: 40em;
+    margin-bottom: 7em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 3px #3F774E;
+}
+
+#h1{
+    color: #FFFFFF;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-align: center;
+    margin-top: -3.5em;
+    margin-left: 16.2em;
+    text-decoration: underline;
+    text-decoration-color: #82AF8E;
+    text-underline-offset: 6px;
+}
+
+.tilbage-knap{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    border: none;
+    background-color: #FFFFFF;
+    color: #242424;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -46em;
+    margin-left: -37em;
+}
+
+.tilbage-knap:hover {
+    background-color: #FFFFFF;
+}
+
+.tilbage-knap {border-radius: 40px;}
+
+#h2-info-boks{
+    color: #242424;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    margin-top: -27em;
+}
+
+#h2-godkend-boks{
+    color: #242424;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    margin-top: -14em;
+}
+
+#p-varer{
+    color: #242424;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: -16.4em;
+    margin-left: -20em;
+}
+
+#p-pris-eksl-moms{
+    color: #242424;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: -18em;
+    margin-left: 5em;
+}
+
+#p-antal{
+    color: #242424;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: -18em;
+    margin-left: 5em;
+}
+
+#p-pris-inkl-moms{
+    color: #242424;
+    line-height: 1.6;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: -18em;
+    margin-left: 37em;
+}
+
+#p-x{
+    color: #242424;
+    line-height: 1.6;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: -19.5em;
+    margin-left: 50em;
+}
+
+.sektion-1{
+    margin-left: 5em;
+}
+
+#p-kontaktperson-og-betalingsmetode{
+    color: #242424;
+    line-height: 1.6;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: 20em;
+    margin-left: -20em;
+}
+
+#p-fakturerings-og-leveringsadresse{
+    color: #242424;
+    line-height: 1.6;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: 23em;
+    margin-right: -20em;
+}
+
+#p-1-ud-af-2{
+    color: #242424;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: -1em;
+    margin-left: -10em;
+}
+
+#p-2-ud-af-2{
+    color: #242424;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: right;
+    float: right;
+    margin-top: -1em;
+    margin-right: -10em;
+}
+
+.godkend-knap{
+    width: 240px;
+    height: 70px;
+    position: absolute;
+    border: none;
+    background-color: #3F774E;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 12.5em;
+    margin-left: -5.3em;
+}
+
+.godkend-knap:hover {
+    background-color: #82AF8E;
+}
+
+.godkend-knap {border-radius: 40px;}
+
+#handelsbetingelser{
+    color: #242424;
+    position: absolute;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    text-align: left;
+    float: left;
+    margin-top: 35em;
+    margin-left: -11em;
+}
+
+/* -----Variables----- */
+
+/* Colors */
+
+:root{
+    --dark-green: #3F774E;
+    --light-green: #82AF8E;
+    --dark-grey: #242424;
+    --lightgrey: #E0E0E0;
+    --white: #FAFAFA;
+}
+
+/* Margins */
+
+:root{
+    --mg1: 1em;
+    --mg2: 2em;
+    --mg3: 3em;
+    --mg4: 4em;
+    --mg5: 5em;
+    --mg6: 6em;
+}
+
+/* Fonts */
+
+:root{
+    --font_about: 3.625em;
+    --font_contact: 3.125em;
+    --Title1: 6.25em;
+    --Title2: 5em;
+    --Title3: 3.8125em;
+    --Title4: 3em;
+    --Title5: 2em;
+    --Title6: 1.5em;
+    --Paragraphs: 1em;
+    --desc: 5em; /*unknown*/
+    --info: 6em; /*unknown*/
+}
+
+/* Zindex */
+
+:root{
+    --back: 1;
+    --middle: 5;
+    --front: 10;
+}
+
+/* Extras */
+
+::-webkit-scrollbar {
+	display: none;		
+}
+
