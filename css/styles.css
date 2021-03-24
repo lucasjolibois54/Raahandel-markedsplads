@@ -148,10 +148,23 @@ header nav ul li{
 header nav ul li a{
     height: 50px; 
     line-height: 50px;
-    padding: 0 20px; 
+    padding: 10px 10px 10px 10px; 
     color: #82AF8E;
     text-decoration: none; 
     display: block; 
+}
+
+#navn-tamtam {
+  height: auto;
+  width: 80%;
+  margin-top: -2%;
+  margin-left: 60%;
+}
+
+#ikon-menu{
+  height: auto;
+  width: 80%;
+  margin-top: 14%;
 }
 
 /*added the bruger menu and removed it for desktop*/
