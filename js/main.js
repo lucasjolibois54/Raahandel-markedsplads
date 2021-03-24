@@ -4,7 +4,7 @@
 const body = document.body,
     scrollWrap = document.getElementsByClassName("smooth-scroll-wrapper")[0],
     height = scrollWrap.getBoundingClientRect().height - 1,
-    speed = 0.07;
+    speed = 0.0765;
 
 var offset = 0;
 
