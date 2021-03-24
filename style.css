@@ -41,13 +41,6 @@ p{
 
 
 
-* {
-    text-decoration: none;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    outline: none;
-  }
 
   body {
     margin: 0px;
@@ -191,6 +184,179 @@ header nav ul li a{
     z-index: -1;
     opacity: 1;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------   MY PROJECTS   -----------------------------*/
+
+
+/* this selecs and applies to every element before and after CSS pseudo elements */
+#body-projects *,           
+#body-projects *::before,
+#body-projects *::after {
+  box-sizing: border-box;
+}
+
+
+
+/*CSS FOR THE BODY*/
+#section-a-projects { 
+    margin-top: 15em;
+  color: #272727;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  padding: 1rem;
+  background: #242424;
+}
+
+/*the cards themselves*/
+.my-projects-cards-title-section{
+  max-width: 100%; /*the largest width the cards can have*/
+  margin: 0 auto; /*the auto will help center it*/
+}
+
+/* the title above the cards*/
+.my-projects-cards-title-section h1 { 
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    padding: 1rem;
+    color: #fff;
+}
+
+.my-projects-cards-title-section img {
+    display: block; /*displays it (if it had said none it wouldnt have been visible*/
+    width: 100%; /*width of the picture*/
+    height: 20rem; /*the height of the picture*/
+    object-fit: cover; /*does so the it fits the cove of the box. this does so that the height or width won't get weirdly affected*/
+}
+
+.btn5  {
+  color: #252525;
+  padding: 0.8rem;
+  text-transform: uppercase; /*makes it big letters*/
+  display: block; /*displays it as a block*/
+  width: 100%; /*width of the button*/
+  padding: 1.5rem; /*around the button*/
+  font-size: 1.2rem; 
+  text-align: center; /*centers the button*/
+  color: #FCB905; /*color of text from button*/
+  background: #333333; /*background of button*/
+  border: none; /*no borders*/
+  border-radius: 0rem; /*makes the button rectangle*/
+  transition: 0.2s; /*transition for it to change color*/
+  cursor: pointer; /*shows that it is clickable*/
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-btn1:hover,
+.card-btn1:active { /*activates the hover so that the buttons has an hover effect*/
+    background-color: #FCB905;
+    color: #252525;
+}
+
+.card-btn1 span{
+    margin-left: 1rem; /*how much it moves when the transition is activated*/
+    transition: 0.2s; /*time for the arrow to apear*/
+}
+
+.card-btn1:hover span,
+.card-btn1:active span{
+    margin-left: 1.5rem; /*how much the arrow should move when the mouse is on the button (when its transitioning)*/
+}
+
+.cards1 {
+  display: flex; /*flexes the cards so that they are in collumns*/
+  flex-wrap: wrap; /*wraps it up in a way they puts it in rows*/
+  text-decoration: none; /*removes text decorations*/
+  list-style: none; /*removes list style*/
+  margin: 0; /*does so it doesnt gets pushed*/
+  padding: 0; /*does about the same thing*/
+  transition: 0.2s; /*transition for the card to move when you have your mouse on it*/
+}
+
+.cards_item1 {
+  display: flex; /*flexes the cards so that they are in collumns*/
+  padding: 1rem; /*pushes everthing with 1 rem*/
+}
+
+.card1:hover{
+    transform: translateY(-2%); /*how much the cards/ boxes move when the mouse is on it*/
+    transition: 0.5s; /*transition time*/
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.41); /*shadow applied when the arrow is on the box*/
+}
+
+@media (min-width: 640px) {
+  .cards_item1 {
+    width: 50%; /*changes the width to 50%*/
+  }
+}
+
+@media (min-width: 896px) {
+  .cards_item1 {
+    width: 33.33%; /*changes the width to 33,33% when the screensize is min 896px in width*/
+  }
+}
+
+.card_content1 { /*card/ box with text*/
+  padding: 1rem;
+  background: #fff;
+}
+
+.card_title1 { /*title of all the cards/ boxes*/
+  color: #252535;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0px;
+  letter-spacing: 0.1rem;
+}
+
+.card_text1 { /* the text of the cards*/
+  color: #252525;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+
+.card1 {
+    background-color: #fff; /*changes color of background of card but is underneath*/
+    border-radius: 0; /*changes the border radius to 0 so that it won't get round*/
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1); /*adds a small barely visible shadow with a visibility of 0.1*/
+    display: flex; 
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+
+
+
 
 
 
