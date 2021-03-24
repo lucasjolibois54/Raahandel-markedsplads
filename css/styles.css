@@ -24,7 +24,7 @@ h2{
     color: #002e5b;
     /*--just added--*/
     text-decoration: underline;
-    text-decoration-color: #FFA500;
+    text-decoration-color: #82AF8E;
     text-underline-offset: 6px;
     /*--------------*/
     padding-bottom: 10px;
@@ -86,7 +86,7 @@ p{
 }
 
   body, #body_bg{
-    background-color: #ffff;
+    background-color: #242424;
   }
 
   /*Navigation*/
@@ -148,10 +148,24 @@ header nav ul li{
 header nav ul li a{
     height: 50px; 
     line-height: 50px;
-    padding: 0 20px; 
+    padding: 0px 9px; 
     color: #82AF8E;
     text-decoration: none; 
     display: block; 
+}
+
+#navn-tamtam {
+  height: auto;
+  width: 80%;
+  margin-top: -2%;
+  margin-left: -14px;
+  display: block;
+}
+
+#ikon-menu{
+  height: auto;
+  width: 80%;
+  margin-top: 14%;
 }
 
 /*added the bruger menu and removed it for desktop*/
@@ -165,14 +179,14 @@ header nav ul li a{
 }
 
   h1, .markedsplads_overskrift{
-    padding-top: 180px;
     color: #FAFAFA;
     font-size: 2.5em;
-    padding-top: 35vh;
+    padding-top: 45vh;
   }
 
   .markedsplads_overskrift2{
-    margin-top: -40px;
+    margin-top: -3vh;
+    margin-bottom: 135px;
     text-align: center;
     color: #82AF8E;
     font-size: 2em;
@@ -188,7 +202,8 @@ header nav ul li a{
     background-size: cover;
     margin-top: 0px;
     width: 100.1%;
-    height: 800px;
+    height: 111%;
+    top: -10%;
     z-index: -1;
     }
 
@@ -325,7 +340,7 @@ a, a:hover, a:focus, a:active {
 
 .card_content1 { /*card/ box with text*/
   padding: 1rem;
-  background: #fff;
+  background: #F0F0F0;
 }
 
 .card_title1 { /*title of all the cards/ boxes*/
@@ -345,7 +360,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .card1 {
-    background-color: #fff; /*changes color of background of card but is underneath*/
+    background-color: #F0F0F0; /*changes color of background of card but is underneath*/
     border-radius: 0; /*changes the border radius to 0 so that it won't get round*/
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1); /*adds a small barely visible shadow with a visibility of 0.1*/
     display: flex; 
@@ -381,6 +396,7 @@ a, a:hover, a:focus, a:active {
     width: 80vh;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     padding-top: 0;
     border-radius: 10px;
   }
@@ -477,18 +493,43 @@ a, a:hover, a:focus, a:active {
 
  /* NAVIGATION*/
 
+ @media (min-width: 400px){
+  .burger-menu{
+    display: block;
+    margin-left: -100px;
 
+  }}
+  @media (max-width: 400px){
+    .burger-menu{
+      display: block;
+      margin-left: -100px;
+  
+    }}
 
-@media (max-width: 990px){
+  @media (max-width: 1460px){
+
     header{
-        padding: 0 20px;
+      padding: 0 20px;
     }
 
     header nav ul li a.active{
-        color: #FFA500;}
+      color: #FFA500;}
+
+    #navn-tamtam {
+      display: none;
+    }
+
+
 
     .burger-menu{
-        display: block;
+      display: block;
+
+    }
+
+    #ikon-menu{
+      height: auto;
+      width: 5%;
+      
     }
 
 /*makes the burger menu usable (on smaller devices)*/
@@ -515,5 +556,11 @@ a, a:hover, a:focus, a:active {
     header nav ul li a{
         border-bottom: 1px solid #333333; 
         color: #fafafa;
+        margin-bottom: 50px;
     }
+  }
+
+@media (max-width: 990px){
+
+
 }
