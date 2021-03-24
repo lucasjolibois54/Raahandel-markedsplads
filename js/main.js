@@ -9,7 +9,6 @@ const body = document.body,
 
 var offset = 0;
 
-
 function smoothScroll() {
     offset += (window.pageYOffset - offset) * speed;
 
