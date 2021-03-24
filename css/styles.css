@@ -179,14 +179,14 @@ header nav ul li a{
 }
 
   h1, .markedsplads_overskrift{
-    padding-top: 180px;
     color: #FAFAFA;
     font-size: 2.5em;
-    padding-top: 35vh;
+    padding-top: 45vh;
   }
 
   .markedsplads_overskrift2{
-    margin-top: -40px;
+    margin-top: -3vh;
+    margin-bottom: 135px;
     text-align: center;
     color: #82AF8E;
     font-size: 2em;
@@ -202,7 +202,8 @@ header nav ul li a{
     background-size: cover;
     margin-top: 0px;
     width: 100.1%;
-    height: 800px;
+    height: 111%;
+    top: -10%;
     z-index: -1;
     }
 
