@@ -193,9 +193,9 @@ header nav ul li a{
 
 
 /* this selecs and applies to every element before and after CSS pseudo elements */
-#body-projects *,           
-#body-projects *::before,
-#body-projects *::after {
+body *,           
+body *::before,
+body *::after {
   box-sizing: border-box;
 }
 
