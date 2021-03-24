@@ -163,8 +163,7 @@ header nav ul li a{
     padding-top: 180px;
     color: #FAFAFA;
     font-size: 2em;
-    padding-top: 30%;
-
+    padding-top: 30vh;
   }
 
   .markedsplads_overskrift2{
@@ -243,7 +242,7 @@ body *::after {
 
 .btn5  {
   color: #252525;
-  padding: 0.8rem;
+  padding: 1.8rem;
   text-transform: uppercase; /*makes it big letters*/
   display: block; /*displays it as a block*/
   width: 100%; /*width of the button*/
@@ -288,7 +287,7 @@ a, a:hover, a:focus, a:active {
   flex-wrap: wrap; /*wraps it up in a way they puts it in rows*/
   text-decoration: none; /*removes text decorations*/
   list-style: none; /*removes list style*/
-  margin: 0; /*does so it doesnt gets pushed*/
+  margin: 15rem; /*does so it doesnt gets pushed*/
   padding: 0; /*does about the same thing*/
   transition: 0.2s; /*transition for the card to move when you have your mouse on it*/
 }
