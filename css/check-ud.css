@@ -1,0 +1,199 @@
+
+h1{
+  font-family: 'Montserrat', 700;
+  margin: 0px auto;
+  display: table;
+  font-size: 26px;
+  padding: 40px 0px;
+  color: #002e5b;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Montserrat', 600;
+  font-size: 18px;
+  font-weight: 500;
+  color: #002e5b;
+  /*--just added--*/
+  text-decoration: underline;
+  text-decoration-color: #82AF8E;
+  text-underline-offset: 6px;
+  /*--------------*/
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+p{
+  font-family: 'Montserrat', 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #7c7c7c;
+  text-align: justify;
+}
+
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "montserrat", sans-serif;
+  }
+
+/* Index.html */
+
+/*
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  display: table;
+  position: relative;
+}
+*/
+
+h1 span {
+  font-weight: 500;
+}
+
+.content {
+  display: table;
+  margin-bottom: 60px;
+  width: 900px;
+}
+
+/*--------------------DET NYE----------------*/
+.smooth-scroll-wrapper {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: -8;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+display: none;		
+}
+
+body, #body_bg{
+  background-color: #242424;
+}
+
+/*Navigation*/
+.header{
+  margin-bottom: 25em;
+}
+
+.logo img {
+  margin-top: 1em;
+  max-width: 7%;  
+  height: auto;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+
+header{
+  position: fixed; 
+  top: 0;
+  left: 0; 
+  padding: 20px 100px; 
+  background: transparent; 
+  width: 100%; 
+  box-sizing: border-box; 
+  z-index: 10;
+  background-color: #222222ea;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+/*logo in the navigation*/
+header .logo{
+  color: #303030; 
+  height: 50px; 
+  line-height: 50px; 
+  font-size: 18px; 
+  float: left; 
+  font-weight: bold; 
+}
+
+header nav{
+  float: right; 
+}
+
+.logo img{
+  margin-top: 0.36em;
+  max-width: 30%;  
+  height: auto;
+}
+
+header nav ul li a.active{
+  text-decoration: underline;
+}
+
+/*hover effect and location effect*/
+header nav ul li a:hover,
+header nav ul li a.active{
+  color: #fafafafa; 
+  
+}
+
+header nav ul{
+  margin: 0; 
+  padding: 0; 
+  display: flex;
+}
+
+header nav ul li{
+  list-style: none;
+}
+
+header nav ul li a{
+  height: 50px; 
+  line-height: 50px;
+  padding: 0px 9px; 
+  color: #82AF8E;
+  text-decoration: none; 
+  display: block; 
+}
+
+#navn-tamtam {
+height: auto;
+width: 80%;
+margin-top: -2%;
+margin-left: -14px;
+display: block;
+}
+
+#ikon-menu{
+height: auto;
+width: 80%;
+margin-top: 14%;
+}
+
+/*added the bruger menu and removed it for desktop*/
+.burger-menu{
+  color: #fff; 
+  float: right; 
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer; 
+  display: none; 
+}
+
+h1, .markedsplads_overskrift{
+  color: #FAFAFA;
+  font-size: 2.5em;
+  padding-top: 45vh;
+}
+
+.markedsplads_overskrift2{
+  margin-top: -3vh;
+  margin-bottom: 135px;
+  text-align: center;
+  color: #82AF8E;
+  font-size: 2em;
+  text-decoration-color: #82AF8E;
+}
