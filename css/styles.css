@@ -90,6 +90,19 @@ p{
   }
 
   /*Navigation*/
+.header{
+    margin-bottom: 25em;
+}
+
+.logo img {
+    margin-top: 1em;
+    max-width: 7%;  
+    height: auto;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+  }
+
 header{
     position: fixed; 
     top: 0;

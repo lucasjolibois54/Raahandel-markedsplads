@@ -15,6 +15,91 @@ body{
     top: 25px;
     left: 50px;
   }
+
+header{
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    padding: 20px 100px; 
+    background: transparent; 
+    width: 100%; 
+    box-sizing: border-box; 
+    z-index: 10;
+    background-color: #222222ea;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+header .logo{
+    color: #303030; 
+    height: 50px; 
+    line-height: 50px; 
+    font-size: 18px; 
+    float: left; 
+    font-weight: bold; 
+}
+
+header nav{
+    float: right; 
+}
+
+.logo img{
+    margin-top: 0.36em;
+    max-width: 30%;  
+    height: auto;
+}
+
+header nav ul li a.active{
+    text-decoration: underline;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active{
+    color: #fafafafa; 
+    
+}
+
+header nav ul{
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    height: 50px; 
+    line-height: 50px;
+    padding: 0px 9px; 
+    color: #82AF8E;
+    text-decoration: none; 
+    display: block; 
+}
+
+#navn-tamtam {
+  height: auto;
+  width: 80%;
+  margin-top: -2%;
+  margin-left: -14px;
+  display: block;
+}
+
+#ikon-menu{
+  height: auto;
+  width: 80%;
+  margin-top: 14%;
+}
+
+.burger-menu{
+    color: #fff; 
+    float: right; 
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer; 
+    display: none; 
+}
   
   #header-skrift{
     font-family: 'Montserrat';
