@@ -90,19 +90,6 @@ p{
   }
 
   /*Navigation*/
-.header{
-    margin-bottom: 25em;
-}
-
-.logo img {
-    margin-top: 1em;
-    max-width: 7%;  
-    height: auto;
-    position: absolute;
-    top: 25px;
-    left: 50px;
-  }
-
 header{
     position: fixed; 
     top: 0;
@@ -133,7 +120,7 @@ header nav{
 
 .logo img{
     margin-top: 0.36em;
-    max-width: 30%;  
+    max-width: 40%;  
     height: auto;
 }
 
@@ -569,7 +556,7 @@ a, a:hover, a:focus, a:active {
     header nav ul li a{
         border-bottom: 1px solid #333333; 
         color: #fafafa;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
   }
 
