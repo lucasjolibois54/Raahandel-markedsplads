@@ -154,8 +154,8 @@ header nav ul li a{
 
   .markedsplads_overskrift{
     color: #FAFAFA;
-    font-size: 5.5em;
-    padding-top: 35vh;
+    font-size: 40px;
+    padding-top: 41vh;
     font-family: 'Montserrat', 700;
     margin: 40px auto;
     display: table;
@@ -164,11 +164,11 @@ header nav ul li a{
   }
 
   .markedsplads_overskrift2{
-    margin-top: -3vh;
+    margin-top: -5vh;
     margin-bottom: 135px;
     text-align: center;
     color: #82AF8E;
-    font-size: 2em;
+    font-size: 40px;
     text-decoration-color: #82AF8E;
   }
  
@@ -289,10 +289,23 @@ a, a:hover, a:focus, a:active {
   flex-wrap: wrap; /*wraps it up in a way they puts it in rows*/
   text-decoration: none; /*removes text decorations*/
   list-style: none; /*removes list style*/
-  margin: 15em; /*does so it doesnt gets pushed*/
+  margin: 0em; /*does so it doesnt gets pushed*/
   padding: 0; /*does about the same thing*/
   margin-top: 0em;
   transition: 0.2s; /*transition for the card to move when you have your mouse on it*/
+}
+
+@media screen and (min-width: 1400px){
+  .cards1 {
+    display: flex; /*flexes the cards so that they are in collumns*/
+    flex-wrap: wrap; /*wraps it up in a way they puts it in rows*/
+    text-decoration: none; /*removes text decorations*/
+    list-style: none; /*removes list style*/
+    margin: 15em; /*does so it doesnt gets pushed*/
+    padding: 0; /*does about the same thing*/
+    margin-top: 0em;
+    transition: 0.2s; /*transition for the card to move when you have your mouse on it*/
+  }
 }
 
 .cards_item1 {
