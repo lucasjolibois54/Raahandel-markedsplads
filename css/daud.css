@@ -1,0 +1,427 @@
+/* Check ud og notifikations-css */
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #E0E0E0;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    color: #000;
+  }
+  
+  h1, h2, h3, h4 {
+    font-weight: 900;
+    color: #333;
+    margin: 1.5em 0 0.5em;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  h4 {
+    font-size: 1.3em;
+  }
+  
+  strong {
+    font-weight: 600;
+  }
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(51, 153, 204, 0.2);
+  }
+  
+  .titel-hr {
+    border: none;
+    height: 1px;
+    width: 80px;
+    background-color: #000;
+  }
+  
+  .titel-hr-notifikationer {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+  }
+  
+  .img-placeholder {
+    background-image: url("http://placehold.it/200x100/CC99CC/ffffff&text=Feature");
+    background-size: cover;
+    min-height: 100px;
+    min-width: 100px;
+  }
+  
+  /*Basic Grid Styles*/
+  .Grid {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+  
+  .u-textCenter {
+    text-align: center;
+  }
+  
+  .Grid-cell {
+    flex: 1;
+  }
+  
+  .Grid-cell-kategori{
+  font-weight: bold;
+  flex: 1;
+  }
+  
+  .Demo {
+    padding: .8em 1em 0;
+    margin-bottom: 1em;
+    transition: background-color 0.1s ease-in-out;
+    border-radius: 10px;
+  }
+  .Demo:after {
+    content: "";
+    display: block;
+    margin-top: .8em;
+    height: 1px;
+  }
+  
+  
+  .Demo.Holly {
+    background: rgba(102, 51, 255, 0.1);
+  }
+  .Demo.Holly:hover {
+    background: rgba(102, 51, 255, 0.25);
+  }
+  
+  /* With gutters*/
+  .Grid--gutters {
+    margin-left: -1em;
+  }
+  .Grid--gutters .Grid-cell {
+    padding-left: 1em;
+  }
+  .Grid--gutters .Grid--nested .Grid-cell:first-of-type .Demo {
+    margin-right: 1em;
+  }
+  
+  /* Justify per row*/
+  .Grid--right {
+    justify-content: flex-end;
+  }
+  
+  .Grid--center {
+    justify-content: center;
+  }
+  
+  /* Alignment per row */
+  .Grid--top {
+    align-items: flex-start;
+  }
+  
+  .Grid--bottom {
+    align-items: flex-end;
+  }
+  
+  .Grid--center {
+    align-items: center;
+  }
+  
+  /* Alignment per cell */
+  .Grid-cell--top {
+    align-self: flex-start;
+  }
+  
+  .Grid-cell--bottom {
+    align-self: flex-end;
+  }
+  
+  .Grid-cell--center {
+    align-self: center;
+  }
+  
+  .navigation {
+    list-style: none;
+    /*background: deepskyblue;*/
+    background: rgba(102, 51, 255, 0.1);
+    margin: 0 0 1em;
+    border: 1px solid #33cccc;
+    border-radius: 3px;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-end;
+  }
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: #333;
+  }
+  .navigation a:hover {
+    background: rgba(64, 0, 255, 0.1);
+    border-radius: 3px;
+  }
+  .navigation:hover {
+    background: rgba(102, 51, 255, 0.25);
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  @media all and (max-width: 600px) {
+    .navigation {
+      -webkit-flex-flow: column wrap;
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a {
+      text-align: center;
+      padding: 10px;
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+  /*===========================================*/
+  /* Base classes for all media - Mobile first */
+  .Grid--cols-2 > .Grid-cell {
+    flex: 0 0 100%;
+  }
+  
+  .Grid--cols-3 > .Grid-cell {
+    flex: 0 0 100%;
+  }
+  
+  .Grid--cols-4 > .Grid-cell {
+    flex: 0 0 100%;
+  }
+  
+  .Grid--cols-6 > .Grid-cell {
+    flex: 0 0 calc(50% - 1em);
+  }
+  
+  .Grid--cols-12 > .Grid-cell {
+    flex: 0 0 calc(33.3333% - 1em);
+  }
+  
+  .Grid--holly-grail .aside, .Grid--holly-grail .main {
+    flex: 1 100%;
+  }
+  
+  /* One of -- columns*/
+  .Grid--1of2 > .Grid-cell,
+  .Grid--1of4 > .Grid-cell:first-of-type,
+  .Grid--1of3 > .Grid-cell:first-of-type {
+    flex: 0 0 100%;
+  }
+  
+  .Grid--1of6 > .Grid-cell:first-of-type {
+    flex: 0 0 50%;
+  }
+  
+  .Grid--fit > .Grid-cell {
+    flex: 1;
+  }
+  
+  .Grid--full > .Grid-cell {
+    flex: 0 0 100%;
+  }
+  
+  /* Tablet (medium) screens */
+  @media (min-width: 30em) {
+    .Grid--cols-4 > .Grid-cell {
+      flex: 0 0 calc(50% - 1em);
+    }
+  
+    .Grid--cols-6 > .Grid-cell {
+      flex: 0 0 calc(33.3333% - 1em);
+    }
+  
+    .Grid--cols-12 > .Grid-cell {
+      flex: 0 0 calc(16.6666% - 1em);
+    }
+  
+    .Grid--holly-grail .aside {
+      flex: 1 calc(25% - 1em);
+    }
+  
+    .Grid--1of2 > .Grid-cell {
+      flex: 0 0 50%;
+    }
+  
+    .Grid--1of6 > .Grid-cell:first-of-type {
+      flex: 0 0 30%;
+    }
+  
+    .Grid--1of4 > .Grid-cell:first-of-type {
+      flex: 0 0 50%;
+    }
+  
+    .Grid--1of3 > .Grid-cell:first-of-type {
+      flex: 0 0 100%;
+    }
+  }
+  /* Large screens */
+  @media (min-width: 48em) {
+    .Grid--cols-2 > .Grid-cell,
+    .Grid--cols-3 > .Grid-cell,
+    .Grid--cols-4 > .Grid-cell,
+    .Grid--cols-6 > .Grid-cell,
+    .Grid--cols-12 > .Grid-cell {
+      flex: 1;
+    }
+  
+    .Grid--holly-grail .main {
+      flex: 2;
+    }
+    .Grid--holly-grail .aside {
+      flex: 1;
+    }
+    .Grid--holly-grail .aside-1 {
+      order: 1;
+    }
+    .Grid--holly-grail .main {
+      order: 2;
+    }
+    .Grid--holly-grail .aside-2 {
+      order: 3;
+    }
+  
+    .Grid--1of2 > .Grid-cell {
+      flex: 0 0 50%;
+    }
+  
+    .Grid--1of6 > .Grid-cell:first-of-type {
+      flex: 0 0 16.6666%;
+    }
+  
+    .Grid--1of4 > .Grid-cell:first-of-type {
+      flex: 0 0 25%;
+    }
+  
+    .Grid--1of3 > .Grid-cell:first-of-type {
+      flex: 0 0 30%;
+    }
+  
+    .Grid--gutters.Grid--nested .Grid-cell:first-of-type .Demo {
+      margin-right: 0;
+    }
+  }
+  
+  /* Leveringsdato + ordrebekræftelses titel */
+  .content-1of1{
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2em;
+  }
+  
+  /* varer, pris og antal */
+  .content-1of2 {
+    font-size: 1em;
+    font-weight: lighter;
+  }
+  
+  
+  /* varer, pris og antal - beskrivelser */
+  .content-1of3{
+    font-size: 1em;
+    font-weight: lighter;
+    float: left;
+  }
+  
+  .titel-notifikation{
+    font-size: 1em;
+    font-weight: lighter;
+    float: left;
+    top: 0;
+    margin-top: -.2rem;
+  }
+  
+  .content-1of3-moms{
+  
+  margin: 2rem 2rem 2rem 2rem;
+  }
+  
+  .content-1of3-moms span {
+    font-size: .7em;
+    font-weight: lighter;
+    opacity: 50%;
+  }
+  
+  .content-1of3-moms a {
+    background: #242424;
+    color: #fff;
+    top: 20px;
+    bottom: 20px;
+    margin: 10rem 10rem 10rem 10rem;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 10px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  
+  .content-1of3 span {
+    font-size: .7em;
+    font-weight: lighter;
+    opacity: 50%;
+    float: left;
+  }
+  
+  
+  /* kontaktinformationer */
+  .content-1of4 {
+    font-size: 1em;
+    font-weight: bold;
+    float: left;
+  }
+  
+  .content-1of4 span{
+    font-size: 1em;
+    font-weight: lighter;
+    float: left;
+  }
+  
+  /* ordrebekræftelse */
+  .content-1of5{
+    font-size: 1em;
+    font-weight: lighter;
+  }
+  
+  .handelsbetingelser{
+    font-size: .6em;
+  }
+  
+  .check-boks{
+    margin-top: 10%;
+  }
+  
+  .kontaktinfo{
+    padding: .2em .2em .2em .2em;
+    margin-bottom: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pure-button {
+    background: #3F774E;
+    color: #fff;
+    top: 20px;
+    bottom: 20px;
+    margin: 10rem 10rem 10rem 10rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 30px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin: auto;
+  }

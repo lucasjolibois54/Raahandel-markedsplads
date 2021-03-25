@@ -9,36 +9,8 @@
 
 h1{
     font-family: 'Montserrat', 700;
-    margin: 0px auto;
-    display: table;
-    font-size: 26px;
-    padding: 40px 0px;
-    color: #002e5b;
-    text-align: center;
+    padding: 8px 0px;
 }
-
-h2{
-    font-family: 'Montserrat', 600;
-    font-size: 18px;
-    font-weight: 500;
-    color: #002e5b;
-    /*--just added--*/
-    text-decoration: underline;
-    text-decoration-color: #82AF8E;
-    text-underline-offset: 6px;
-    /*--------------*/
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-
-p{
-    font-family: 'Montserrat', 400;
-    font-size: 14px;
-    line-height: 22px;
-    color: #7c7c7c;
-    text-align: justify;
-}
-
 
 
 
@@ -180,10 +152,15 @@ header nav ul li a{
     
 }
 
-  h1, .markedsplads_overskrift{
+  .markedsplads_overskrift{
     color: #FAFAFA;
-    font-size: 2.5em;
-    padding-top: 45vh;
+    font-size: 5.5em;
+    padding-top: 35vh;
+    font-family: 'Montserrat', 700;
+    margin: 40px auto;
+    display: table;
+    padding: 40vh auto;
+    text-align: center;
   }
 
   .markedsplads_overskrift2{
@@ -312,8 +289,9 @@ a, a:hover, a:focus, a:active {
   flex-wrap: wrap; /*wraps it up in a way they puts it in rows*/
   text-decoration: none; /*removes text decorations*/
   list-style: none; /*removes list style*/
-  margin: 0; /*does so it doesnt gets pushed*/
+  margin: 15em; /*does so it doesnt gets pushed*/
   padding: 0; /*does about the same thing*/
+  margin-top: 0em;
   transition: 0.2s; /*transition for the card to move when you have your mouse on it*/
 }
 
