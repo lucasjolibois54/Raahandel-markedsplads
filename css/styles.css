@@ -170,12 +170,13 @@ header nav ul li a{
 
 /*added the bruger menu and removed it for desktop*/
 .burger-menu{
+    display: none; 
     color: #fff; 
     float: right; 
     line-height: 50px;
     font-size: 24px;
     cursor: pointer; 
-    display: none; 
+    
 }
 
   h1, .markedsplads_overskrift{
